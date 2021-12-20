@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap');
+
+* {
+    font-family: 'Readex Pro', sans-serif;
+
+}
+
+body {
+    background-image: url(https://onemillionfactory.com/wp-content/uploads/2020/09/686946.jpg);
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.card {
+    margin: 60px;
+    padding: 50px;
+    border-radius: 15px;
+
+}
+
+input {
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    padding-left: 18px;
+
+    width: 300px;
+}
+
+.btn {
+    width: 180px;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.ad {
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 300px;
+    height: 220px;
+    padding-left: 18px;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+select{
+    width: 300px;
+    text-align: center;
+}

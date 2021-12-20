@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap');
+
+*{
+    font-family: 'Readex Pro', sans-serif;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image:url(https://i.pinimg.com/originals/dc/43/bf/dc43bf76b42cd50eb028cecc24f9f75a.png);
+    background-size: cover;
+}
+form{ 
+    
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: white ;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.btn-1{
+    background-color:rgb(224, 161, 24) ;
+    color: white;
+    border: none;
+    width: 20%;
+    height: 3%;
+    padding: 10px;
+    font-size:16px;
+    border-radius: 8px; 
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+}
+.btn-2{
+    background-color:rgb(33, 168, 89) ;
+    color: white;
+    border: none;
+    width: 20%;
+    height: 3%;
+    padding: 10px;
+    font-size:16px;
+    border-radius: 8px; 
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+}
+
+input{
+
+    margin: 25px;
+    height: 25px;
+    border-radius: 7px;
+    width: 85%;
+    height: 35px;
+    border: 1px solid rgb(104, 104, 104);
+
+
+}
+
+
+.page{
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+.submit{
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+
+
